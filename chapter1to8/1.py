@@ -3,7 +3,7 @@ t = (1, 2, [30, 40])
 try:
     t[2] += [50, 60]
 except TypeError as e:
-    pass
+    print(e)
 
 print(t)
 
